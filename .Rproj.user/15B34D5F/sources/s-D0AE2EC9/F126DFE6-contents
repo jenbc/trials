@@ -12,7 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
- hopefully this works
+
+**Whenever I pust double astericks around text it highlights it**
+
+
+##If I use two number signs I get a mini header versus one which provides a main header
+
+#What are Code Chunks and how are they useful?
+
+When I first started using R Markdown, the shortcust Ctrl + Alt + I (OS X: Cmd + Option + I) really helped.  For more on Code Chunks, here is a link to a R Markdown codechunk cheatsheet. 
+<https://rmarkdown.rstudio.com/lesson-3.html>
+
 ```{r cars}
 summary(cars)
 ```
