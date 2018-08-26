@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3378466654",
+    "hash" : "1594112500",
     "id" : "F126DFE6",
-    "lastKnownWriteTime" : 1535297095,
-    "last_content_update" : 1535297095627,
+    "lastKnownWriteTime" : 1535297350,
+    "last_content_update" : 1535297350884,
     "path" : "C:/Users/Jen/Desktop/Trials/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
-        "cursorPosition" : "37,2",
-        "scrollLine" : "26"
+        "cursorPosition" : "71,1",
+        "scrollLine" : "62"
     },
     "relative_order" : 1,
     "source_on_save" : false,

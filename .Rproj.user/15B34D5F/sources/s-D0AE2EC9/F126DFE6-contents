@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### **Still under construction**; mainly for me to learn R Markdown 
 
 
-Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com> or <https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf>.
 
 This is the home [page](https://cran.r-project.org/web/packages/available_packages_by_name.html#available-packages-P) of CRAN's instructions for its packages. To hyperlink a word, type the word in [] and then in brackets() paste the link.  
 
@@ -68,10 +68,12 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 The first video I tried the use_start_time function and set it at a part of the video that I find funny.  
 
 ```{r video, echo=FALSE}
-("The one that worked for me was the '<iframe src=URL, width=420, height=315, frameborder=0, allowfullscreen, use_start_time(ms)> </iframe>' option with double quotations around each answer")
+("The one that worked for me was the '<iframe src=URL, width=420, height=315, frameborder=0, allowfullscreen,
+ use_start_time(ms)> </iframe>' option with double quotations around each answer")
 ```
  
-<iframe src="https://www.youtube.com/embed/pBuZEGYXA6E" width="420" height="315" frameborder="0" allowfullscreen, use_start_time("1m25s")> </iframe>
+<iframe src="https://www.youtube.com/embed/pBuZEGYXA6E" width="420" height="315" frameborder="0" allowfullscreen, 
+#> use_start_time("1m25s")> </iframe>
 
 <iframe src="https://www.youtube.com/embed/pBuZEGYXA6E" width="420" height="315" frameborder="0" allowfullscreen> </iframe>
 
