@@ -15,17 +15,17 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 # **How to create a new page on Git**
+NB Make repository on github with the same name
 1.	Create a folder/project in R studio.
 2.  Create a R Markdown file and chose html when it comes up as well as install the necessary packages. Change the title as well as save as index.rmd ( I am not sure why to save it as index.rmd but that is what i was told)
 3.	Open git bash and set working directory n Git bash
 4.	Type: Git init
 5.	Type: Git add .
 6.	Type: Git commit -m”message”
-7.	Make repository on github with the same name
-8.	Copy and paste the directions from git hub “command line push” separately 
-9.	Push up to git hub by doing git remote add link and then git push link
-10.	Go to settings master branch save
-11.	Then click on the published website
+7.	Copy and paste the directions from git hub “command line push” separately 
+8.	Push up to git hub by doing git remote add link and then git push link
+9.	Go to settings master branch save
+10.	Then click on the published website
 
 **Whenever I pust double astericks around text it highlights it**
 
@@ -51,3 +51,7 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+ 
+To add images 
+
+![I stan BTS](/users/jen/desktop/trials/Bts.png)
