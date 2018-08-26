@@ -8,34 +8,36 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown Tutorial 
-### **Still under construction**; mainly for me to learn R
+### **Still under construction**; mainly for me to learn R Markdown 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+This is the home [page](https://cran.r-project.org/web/packages/available_packages_by_name.html#available-packages-P) of CRAN's instructions for its packages. To hyperlink a word, type the word in [] and then in brackets() paste the link.  
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. 
+R warning=false, message =false to get rid of warning  
 
 # **How to create a new page on Git**
 NB Make repository on github with the same name
-1.	Create a folder/project in R studio.
-2.  Create a R Markdown file and chose html when it comes up as well as install the necessary packages. Change the title as well as save as index.rmd ( I am not sure why to save it as index.rmd but that is what i was told)
-3.	Open git bash and set working directory n Git bash
-4.	Type: Git init
-5.	Type: Git add .
-6.	Type: Git commit -m”message”
-7.	Copy and paste the directions from git hub “command line push” separately 
-8.	Push up to git hub by doing git remote add link and then git push link
-9.	Go to settings master branch save
-10.	Then click on the published website
+1.	Create a folder/project in R studio  
+2.  Create a R Markdown file and chose html when it comes up as well as install the necessary packages. Change the title as well as save as index.rmd ( I am not sure why to save it as index.rmd but that is what i was told)  
+3.	Open git bash and set working directory n Git bash  
+4.	Type: Git init  
+5.	Type: Git add .  
+6.	Type: Git commit -m”message”  
+7.	Copy and paste the directions from git hub “command line push” separately  
+8.	Push up to git hub by doing git remote add link and then git push link  
+9.	Go to settings master branch save  
+10.	Then click on the published website  
 
-**Whenever I pust double astericks around text it highlights it**
-
-R warning=false, message =false to get rid of warning
+**Whenever I place double astericks around text it makes it bold**
 
 ##If I use two number signs I get a mini header versus one which provides a main header
 
-#What are Code Chunks and how are they useful?
+##What are Code Chunks and how are they useful?
 
-When I first started using R Markdown, the shortcust Ctrl + Alt + I (OS X: Cmd + Option + I) really helped.  For more on Code Chunks, here is a link to a R Markdown codechunk cheatsheet. 
+When I first started using R Markdown, the shortcut Ctrl + Alt + i (OS X: Cmd + Option + i) really helped.  For more on Code Chunks, here is a link to a R Markdown codechunk cheatsheet. 
 <https://rmarkdown.rstudio.com/lesson-3.html>
 
 ```{r cars}
@@ -52,22 +54,26 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
  
-To add images type an exclamation point![caption](directory/image.png/jpeg
+```{r images, echo=FALSE}
+
+"To add images type ![caption](directory/image.png"
+```
  
 
 ![I stan BTS](/users/jen/desktop/trials/Bts.png)
- To embed a video
+
+
+ **To embed a video**
+ I installed the vembedr package and pretty much followed these [instructions](https://github.com/ijlyttle/vembedr). 
+The first video I tried the use_start_time function and set it at a part of the video that I find funny.  
+
+```{r video, echo=FALSE}
+("The one that worked for me was the '<iframe src=URL, width=420, height=315, frameborder=0, allowfullscreen, use_start_time(ms)> </iframe>' option with double quotations around each answer")
+```
  
-suggest_embed("https://youtu.be/pBuZEGYXA6E?t=1m32s")
-#> embed_youtube("pBuZEGYXA6E") %>%
-#> use_start_time("1m32s")
-
-embed_youtube(https://www.youtube.com/embed/pBuZEGYXA6E, width = 420, height = 315, frameborder = 0,
-allowfullscreen = False, query = NULL)
-
-embed_url("https://www.youtube.com/embed/pBuZEGYXA6E")
-
-
+<iframe src="https://www.youtube.com/embed/pBuZEGYXA6E" width="420" height="315" frameborder="0" allowfullscreen, use_start_time("1m25s")> </iframe>
 
 <iframe src="https://www.youtube.com/embed/pBuZEGYXA6E" width="420" height="315" frameborder="0" allowfullscreen> </iframe>
 
+
+ To hyperlink a word, type the word in [] and then in brackets() paste the link
