@@ -58,7 +58,16 @@ To add images type an exclamation point![caption](directory/image.png/jpeg
 ![I stan BTS](/users/jen/desktop/trials/Bts.png)
  To embed a video
  
-embed_youtube(https://www.youtube.com/watch?v=pBuZEGYXA6E, width = 420, height = 315, frameborder = 0,
-allowfullscreen = TRUE, query = NULL)
+suggest_embed("https://youtu.be/pBuZEGYXA6E?t=1m32s")
+#> embed_youtube("pBuZEGYXA6E") %>%
+#> use_start_time("1m32s")
 
+embed_youtube(https://www.youtube.com/embed/pBuZEGYXA6E, width = 420, height = 315, frameborder = 0,
+allowfullscreen = False, query = NULL)
+
+embed_url("https://www.youtube.com/embed/pBuZEGYXA6E")
+
+
+
+<iframe src="https://www.youtube.com/embed/pBuZEGYXA6E" width="420" height="315" frameborder="0" allowfullscreen> </iframe>
 
